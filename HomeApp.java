@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class HomeApp{
     public static void main(String[] args){
-        HomeService homeService = new Light();
-
-        HomeInterface homeInterface = new HomeInterface(homeService);
+        HomeInterface homeInterface = new HomeInterface();
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter (1) to turn on all appliances."
